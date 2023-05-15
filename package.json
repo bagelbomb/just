@@ -1,0 +1,38 @@
+{
+  "name": "@bagelbomb/just",
+  "version": "0.1.0",
+  "description": "Just use JavaScript - React minus icky HTML and CSS, made easy!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
+  },
+  "author": "Tanner Iverson",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bagelbomb/just.git"
+  },
+  "keywords": [
+    "just",
+    "justjs",
+    "react",
+    "reactjs",
+    "js",
+    "javascript",
+    "html",
+    "css",
+    "only"
+  ],
+  "bugs": {
+    "url": "https://github.com/bagelbomb/just/issues"
+  },
+  "homepage": "https://github.com/bagelbomb/just#readme",
+  "type": "module",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
